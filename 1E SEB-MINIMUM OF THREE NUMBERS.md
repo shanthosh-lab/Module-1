@@ -11,8 +11,8 @@ To write a Python program to determine traffic status based on the fraction of r
 
 ## PROGRAM
 ```python
-# Reg.No- 212223020021
-# Name- Ranjith P
+# Reg.No- 212223020023
+# Name- Shanthosh S
 # Write your code here
 
 a=eval(input())
