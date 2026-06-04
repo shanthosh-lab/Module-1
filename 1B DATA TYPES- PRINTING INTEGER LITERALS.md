@@ -1,29 +1,31 @@
-# Experiment No: 1B- Data Types – Printing Integer Literals
+# Experiment No: 1B- Data Types – Printing float values
 
 ## AIM  
-To write a Python program to print the following integer literals: 123, 456, 789.
+To  create a Python program to assign a float with 2 decimals to the variable (21.36).
 
-## ALGORITHM  
-1. Begin the program.  
-2. Initialize the integer literals `123`, `456`, and `789`.  
-3. Use the `print()` function to display the numbers `123`, `456`, and `789`.  
-4. Terminate the program.
+## ALGORITHM  a
+1.Start
+
+2.Define a variable global_mean_sea_level_2018 and assign it the value 21.36
+
+3.Print the value of the variable.
+
+4.End.
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
+# Reg.No - 212223020023
+# Name - Shanthosh S
 # Write your code here
 
-num1 = 123
-num2 = 456
-num3 = 789
+global_mean_sea_level_2018=21.36
 
-print(num1)
-print(num2)
-print(num3)
+print(global_mean_sea_level_2018)
 
 ```
 ## OUTPUT
+![Screenshot 2025-04-28 141458](https://github.com/user-attachments/assets/7fd43305-3321-4828-ae01-cb87dedf611f)
+
 
 ## RESULT
+ Thus the python program to assign a float with 2 decimal to the variable given is successfully executed.
