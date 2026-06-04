@@ -1,31 +1,36 @@
-## Experiment No: 1d – Conditional Statements- Checking Vowel or not
+## Experiment No: 1d – Conditional Statements- Finding the Minimum of Three Float Numbers  
 
 ## AIM  
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
+To write a Python program to find the minimum among three float numbers using the conditional expression
 ## ALGORITHM  
-1. Begin the program.  
-2. Take a character input from the user
-3. Convert the character to lowercase
-4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
-5. If it is a vowel, display "The given character is a vowel"
-6. Otherwise, display "The given character is NOT a vowel"
-4. Terminate the program.
+1.Begin the program.
+
+2.Use the eval() function to read three float numbers from the user.
+
+3.Print the float numbers entered by the user.
+
+4.Use nested conditional (ternary) expressions to find the smallest number.
+
+5.Print the minimum number.
+
+6.Terminate the program.
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
+# Reg.No - 212223020023
+# Name- Shanthosh S
 # Write your code here
 
-char = input("Enter a character: ")
-char_lower = char.lower()
+a=eval(input())
+b=eval(input())
+c=eval(input())
+d=min(a,b,c)
+print(f'The minimum of {a}, {b}, {c} is {d}')
 
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
-else:
-    print("The given character is NOT a vowel")
 ```
 
 ## OUTPUT
+![Screenshot 2025-04-28 142521](https://github.com/user-attachments/assets/3f1e00c5-8e13-483d-a784-e4419dbe10b3)
 
 ## RESULT
+Thus the Python program to find the minimum between three float numbers using the conditional expression has been implemented and executed successfully.
