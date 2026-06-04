@@ -1,34 +1,32 @@
-# Experiment No: 1e – SEB-Minimum of Three Numbers
+# Experiment No: 1e – SEB-Check Traffic Condition Based on Road Coverage Using If-Else 
 
 ## AIM  
-To write a Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator).
-
+To write a Python program to determine traffic status based on the fraction of roadways covered using conditional statements.
 ## ALGORITHM  
-1. Begin the program.  
-2. Read the three numbers: `num1`, `num2`, and `num3` from the user.  
-3. Compare `num1`, `num2`, and `num3` to find the smallest number:  
-   - If `num1` is less than or equal to both `num2` and `num3`, then `num1` is the minimum.  
-   - Else, if `num2` is less than or equal to both `num1` and `num3`, then `num2` is the minimum.  
-   - Otherwise, `num3` is the minimum.  
-4. Print the minimum value along with the input numbers in the format:  
-   `"The minimum of num1, num2, num3 is min_num."`  
-5. Terminate the program.
+1. Begin the program.
+2.Use the eval() function to read the traffic fraction from the user.
+3.Check the value of traffic_fraction using conditional statements.
+4.Print the corresponding traffic status.
+5.Terminate the program.
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
+# Reg.No- 212223020021
+# Name- Ranjith P
 # Write your code here
 
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-
-min_num = num1 if (num1 <= num2 and num1 <= num3) else num2 if (num2 <= num1 and num2 <= num3) else num3
-
-print(f"The minimum of {num1}, {num2}, {num3} is {min_num}")
+a=eval(input())
+if a>0.5:
+    print('High Traffic!')
+elif a>0.25 and a<=0.5:
+    print('Medium Traffic')
+else:
+    print('Low Traffic')
 ```
 
 ## OUTPUT
+![Screenshot 2025-04-28 142951](https://github.com/user-attachments/assets/1ea29779-dc83-4f2c-bc1d-be0a7d4b4f33)
+
 
 ## RESULT
+Thus the Python program to determine traffic status based on the fraction of roadways covered has been implemented and executed successfully.
